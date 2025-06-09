@@ -1,14 +1,17 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
     text-align:center;
+    font-size: 40px;
+    margin-left: 350px;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 450px;
 }
 
 /* The code below centers the text of all h2's on the page. */
@@ -16,14 +19,40 @@ h2 {
     text-align:center;
 }
 
+body {
+    background-color: #ffe4c4;
+}
+
+p {
+    margin: 20px;
+}
+
+li {
+    margin: 20px;
+}
+
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
     justify-content:space-between;
 }
+a {
+    justify-content: center;
+    text-align: center;
+    padding-left: 150px;
+}
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
     border: 5px black solid;
-    margin:5px;
+    margin: 20px;
 }
+
+.Title_Picture {
+    margin-left: 550px;
+}
+
+.Heading_Text {
+    margin-left: 350px;
+}
+/* Use Margin for Pictures./*
